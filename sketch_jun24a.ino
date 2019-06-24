@@ -12,6 +12,7 @@ void loop() {
  {
   digitalWrite(y,HIGH);
  }
+ delay(1000);
   for(int x=5; x<=9; x++)
   {
     digitalWrite(x,LOW);
